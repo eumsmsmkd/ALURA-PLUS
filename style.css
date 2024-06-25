@@ -34,6 +34,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -63,4 +64,7 @@ body {
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
 }
