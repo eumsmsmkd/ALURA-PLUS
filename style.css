@@ -1,9 +1,10 @@
 :root {
-    --branco-principal: sa#ffffff;
-    --cinza-secundario: #C0C0C0;
+    --branco-principal: #000000;
+    --cinza-secundario: #000000;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
 }
 body {
         background-color: var(--cor-de-fundo);
@@ -130,4 +131,10 @@ body {
 .rodape {
     text-align: center;
     margin: 5em 3em;
+}
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+.lista__link a:active {
+    color: purple;
 }
