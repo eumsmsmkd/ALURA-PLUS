@@ -47,7 +47,11 @@ body {
 
 /.container {
     height: 100vh;
-    display: grid;
+    display: grid;.rodape {
+        text-align: center;
+        margin: 5em 3em;
+    }
+    
     grid-template-columns: 50% 50%;
 }
 .container__aviso {
