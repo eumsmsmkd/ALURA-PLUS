@@ -63,7 +63,6 @@ body {
 }
 .descricao__titulo {
     font-weight: 700;n
-    Log in
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
@@ -119,7 +118,7 @@ body {
     color: var(--botao-azul);
 }
 .lista__link a:active {
-    color: purple;
+    color: rgb(0, 255, 200);
 }
 :root {
     --branco-principal: #FFFFFF;
