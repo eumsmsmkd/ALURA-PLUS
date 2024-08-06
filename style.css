@@ -29,7 +29,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
 }
 .container__botao {
     background-color: var(--botao-azul);
@@ -62,7 +62,8 @@ body {
     margin: 0 5em;
 }
 .descricao__titulo {
-    font-weight: 700;
+    font-weight: 700;n
+    Log in
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
@@ -124,7 +125,7 @@ body {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #000000;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
 }
